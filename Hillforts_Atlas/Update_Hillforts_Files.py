@@ -6,7 +6,7 @@ Created on Nov 11, 2023
 
 from Field_to_Domain_3 import field_to_domain
 
-pr_gdb = r"C:\GIS\Hillforts_Atlas\Hillforts\Hillforts_1.gdb"
+pr_gdb = r"C:\GIS\Hillforts_Atlas\Hillforts\Hillforts_2.gdb"
 
 pr_list = [[r"xHillforts", r"Hillforts",
             ["Alternative_Name_s_","Annex_Summary","Atlas_URL","Boundary_Comments","Chevaux_de_Frise_Comments","Data_Comments",

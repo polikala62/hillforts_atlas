@@ -15,7 +15,9 @@ def isnumeric(val):
         return True
     except:
         return False
-    
+
+#------------------------------------------------------------------------------ 
+
 def valstrip(val):
     if val == None:
         return None
@@ -50,6 +52,8 @@ def valstrip(val):
             return None
         else:
             return changes[-1]
+        
+#------------------------------------------------------------------------------ 
 
 def update_table(current_fc, update_excel, index_fieldname):
     
@@ -179,15 +183,8 @@ def update_table(current_fc, update_excel, index_fieldname):
     
     print("Script finished.")
     
-    
-    
-'''
 current_fc = "C:\\GIS\\Hillforts_Atlas\\Hillforts\\Hillforts_2.gdb\\xHillforts"
 update_fc = "C:\\GIS\\Hillforts_Atlas\\Hillforts\\Update_Features\\sofa_02.xlsx"
-index_fieldname = "Atlas_Number"
-'''
-current_fc = "C:\\GIS\\Hillforts_Atlas\\Hillforts\\Hillforts_2.gdb\xHillforts"
-update_fc = "C:\\GIS\\Hillforts_Atlas\\Hillforts\\Update_Features\sofa_02.xlsx"
 index_fieldname = "Atlas_Number"
 
 update_table(current_fc, update_fc, index_fieldname)
